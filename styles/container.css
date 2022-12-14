@@ -1,0 +1,31 @@
+div.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.sirena {
+  height: 444px;
+  width: auto;
+}
+
+.mattdamon {
+  height: 200px;
+  width: auto;
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.title {}
+
+.call {
+  grid-column: 1 / span 4;
+  grid-row: 1;
+}
+
+.response {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.tryagain {}

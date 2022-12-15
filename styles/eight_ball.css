@@ -14,7 +14,7 @@ h1 {
 
 div.answer {
   background-image: url("../images/bluebubble.png");
-  background-size: auto 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
   height: 500px;
   grid-column-start: 2;
@@ -28,12 +28,11 @@ div.answer {
 p#eight {
   font-size: 5em;
   margin: 20% auto;
-  color: white;
 }
 
 p#answer {
   padding: 23px;
-  color: black;
+  color: white;
   letter-spacing: 2px;
   font-size: 18px;
 }
@@ -47,4 +46,8 @@ p#answer {
 
 #info {
   font-size: 22px;
+}
+
+#bubble {
+
 }

@@ -37,13 +37,16 @@ document.addEventListener("DOMContentLoaded", () => {
     var eightball = document.getElementById("eight-ball");
     var question = document.getElementById("question");
 
+    eight.innerText = "";
+    var num = Math.floor(Math.random() * Math.floor(answers.length));
+
     eightball.addEventListener("click", function () {
       if (question.value.length < 1) {
         alert("Enter a question!");
       } else {
-        eight.innerText = "";
-        var num = Math.floor(Math.random() * Math.floor(answers.length));
         answer.innerText = answers[num];
+        answer.style.removeProperty("background-image");
+
       }
     });
   };

@@ -2,3 +2,7 @@
   font-family: "Blum";
   src: url("../fonts/OTF/Blum-Normal.otf");
 }
+
+body {
+  background-image: url("../images/background.jpg");
+}

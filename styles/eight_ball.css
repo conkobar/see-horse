@@ -14,9 +14,11 @@ h1 {
 
 div.answer {
   background-image: url("../images/bluebubble.png");
-  background-size: 100% 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
   
-
 }
 
 p#eight {

@@ -13,12 +13,10 @@ h1 {
 }
 
 div.answer {
-  background-color: pink;
-  border: 1px solid #333;
-  border-radius: 50%;
-  width: 50%;
-  height: 50%;
-  margin: 25% auto;
+  background-image: url("../images/bluebubble.png");
+  background-size: 100% 100%;
+  
+
 }
 
 p#eight {

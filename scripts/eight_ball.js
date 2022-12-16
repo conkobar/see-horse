@@ -29,17 +29,21 @@ document.addEventListener("DOMContentLoaded", () => {
     "Cannot predict now",
     "I'm not a fortune teller",
     "Concentrate and ask again",
+    "Indubitably so",
+    "Nope",
+    "What would Jesus say?"
   ];
 
   window.onload = function () {
-    var eight = document.getElementById("eight");
-    var answer = document.getElementById("answer");
-    var eightball = document.getElementById("eight-ball");
-    var question = document.getElementById("question");
+    const eight = document.getElementById("eight");
+    const answer = document.getElementById("answer");
+    const eightball = document.getElementById("eight-ball");
+    const question = document.getElementById("question");
     const bubble = document.getElementById("bubble");
 
     eight.innerText = "";
-    var num = Math.floor(Math.random() * Math.floor(answers.length));
+    const num = Math.floor(Math.random() * Math.floor(answers.length));
+
 
     eightball.addEventListener("click", function () {
       if (question.value.length < 1) {

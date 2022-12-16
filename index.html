@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
 
   <script src="scripts/eight_ball.js"></script>
+  <script src="scripts/bubbles.js"></script>
 
   <link rel="stylesheet" type="text/css" href="styles/common.css">
   <link rel="stylesheet" type="text/css" href="styles/container.css">
@@ -21,7 +22,9 @@
     <div id="eight_box" class="call">
       <h1>ASK SIRENA</h1>
       <h2>THE BUBBLE FORTUNE TELLER</h2>
-      <p id="info">Ask me a yes/no question and pop the bubble!</p>
+      <p id="info">Ask me a yes/no question and pop the bubble!
+        <br><br>
+        Click-the-Clam to try again.</p>
       <input type="text" id="question" placeholder="ask here..." />
       <div id="eight-ball" class="response">
         <div class="answer">
@@ -35,20 +38,21 @@
 
     <div id="mattdamon">
       <img class="mattdamon" src="images/clam.png" onclick="document.location.reload(true)">
-      <div class="left-bubble">
+      <!-- <div class="left-bubble">
         Click me to ask another question!
         <div class="circle1"></div>
         <div class="circle2"></div>
-      </div>
+      </div> -->
     </div>
 
-    <div id="sirena">
-      <img class="sirena" src="images/seahorse.png">
-      <div class="right-bubble">
-        I'm Sirena the Psychic Seahorse
-        <div class="circle1"></div>
-        <div class="circle2"></div>
-    </div>
+      <div id="sirena">
+        <img class="sirena" src="images/seahorse.png">
+        <!-- <div class="right-bubble" onmouseover="mouseOver(right)" onmouseout="mouseOut()">
+          I'm Sirena the Psychic Seahorse
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+        </div> -->
+      </div>
 
 </body>
 

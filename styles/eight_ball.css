@@ -13,9 +13,9 @@ h1 {
 }
 
 div.answer {
-  background-image: url("../images/bluebubble.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
+  /* background-image: url("../images/bluebubble.png"); */
+  /* background-size: 100%; */
+  /* background-repeat: no-repeat; */
   height: 500px;
   grid-column-start: 2;
   grid-row-start: 2;
@@ -34,7 +34,7 @@ p#answer {
   padding: 23px;
   color: white;
   letter-spacing: 2px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 #question {
@@ -49,5 +49,9 @@ p#answer {
 }
 
 #bubble {
-
+  height: 400px;
+  width: auto;
+  position: relative;
+  bottom: 150px;
+  cursor: pointer;
 }

@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var answer = document.getElementById("answer");
     var eightball = document.getElementById("eight-ball");
     var question = document.getElementById("question");
+    const bubble = document.getElementById("bubble");
 
     eight.innerText = "";
     var num = Math.floor(Math.random() * Math.floor(answers.length));
@@ -45,8 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Enter a question!");
       } else {
         answer.innerText = answers[num];
-        answer.style.removeProperty("background-image");
-
+        bubble.style.visibility = "hidden";
       }
     });
   };

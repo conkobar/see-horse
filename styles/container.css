@@ -4,7 +4,7 @@ div.container {
   grid-template-rows: minmax(0, 1fr) 3fr;
   height: 98vh;
   width: 98vw;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .sirena {

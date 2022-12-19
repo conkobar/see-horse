@@ -31,7 +31,11 @@ document.addEventListener("DOMContentLoaded", () => {
     "Concentrate and ask again",
     "Indubitably so",
     "Nope",
-    "What would Jesus say?"
+    "Is this where you wanna be when Jesus comes back?",
+    "It is in the stars",
+    "May fortune be ever in your favor",
+    "I highly doubt it",
+    "As if!"
   ];
 
   window.onload = function () {

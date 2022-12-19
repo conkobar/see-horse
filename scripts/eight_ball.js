@@ -35,7 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
     "It is in the stars",
     "May fortune be ever in your favor",
     "I highly doubt it",
-    "As if!"
+    "As if!",
+    "It do be like that"
   ];
 
   window.onload = function () {
